@@ -1,0 +1,34 @@
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkgreen;
+    text-align: center;
+    color:gold;}/*Gives the elements nice Yellow-on-Green text for UAB*/
+h1{
+    text-align: center;
+    font-size:300%;}/*Makes my name stand out*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}/*Centers the picture of myself*/
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}/*Simply just a nice text font*/
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    /*Would have used the text font used for "p", but wanted it to look different*/
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 200%;}/*Spreads the navigation points out*/
+li{
+    font-family: Arial, Helvetica, sans-serif;}/*Just looks good*/
+ul{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+   /*Used Chat GPT for the Job Overview and Job Tasks*/
+a{
+    text-decoration: underline;
+    color: gold;}/*Wanted to keep the UAB theme and have the links stand out from the rest of the text*/
+a:hover{
+    background-color: darkgreen;}/*Needed a backrgound color, and with the UAB theme, green was the obvious color*/
+img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid darkgreen;}/*Wanted my iamge to have a green borderline*/
