@@ -32,3 +32,9 @@ footer{
         margin-right: auto;
         margin-left: auto;
     }
+a{
+    color:rgb(184, 56, 56);
+}
+a:hover{
+    background-color: #d5a464;
+}
