@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}   
+header{
+    position: sticky; top: 0%;
+    background-color: rosybrown;
+    border-bottom:solid black;
+}
+main{
+    width: 80%;
+    background-color: aqua;
+    position: fixed; 
+    margin-left: 10%;
+}
+footer{
+    background-color: yellowgreen;
+    position:fixed; bottom: 0; left: 0%;
+    width: 100%;
+}
+p{
+    padding: 1em;
+}
