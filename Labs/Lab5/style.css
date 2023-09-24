@@ -1,0 +1,75 @@
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: darkgreen;
+    border: 2px solid black;/*Wanted my iamge to have a green borderline*/
+    color:gold;}/*Gives the elements nice Yellow-on-Green text for UAB*/
+h1{
+    background-color: gold;
+    text-align: center;
+    font-size:300%;}/*Makes my name stand out*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}/*Centers the picture of myself*/
+p{
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}/*Simply just a nice text font*/
+footer{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    /*Would have used the text font used for "p", but wanted it to look different*/
+nav{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 200%;}/*Spreads the navigation points out*/
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}/*Just looks good*/
+ul{
+    color: aliceblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover{
+    color:darkgreen;
+}
+h2:hover{
+    border-color: gold;
+}
+img:hover{
+    border-color: gold;
+}
+a{
+    text-align: center;
+    font-size: larger;
+    text-decoration: underline;
+    color: gold;}/*Wanted to keep the UAB theme and have the links stand out from the rest of the text*/
+a:hover{
+    background-color: darkgreen;}/*Needed a backrgound color, and with the UAB theme, green was the obvious color*/
+img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid darkgreen;}/*Wanted my iamge to have a green borderline*/
+body{
+    background-color: black;
+}
+li{    
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 400px); /*Makes a 3x1 grid template*/
+    grid-template-columns: repeat(3, 400px); /*makes a 3x3 grid template*/
+    grid-gap:1em;
+}
+.item-First{
+    grid-column: span 2;
+}
+item-Fourth.p{
+    text-align: center;
+}
