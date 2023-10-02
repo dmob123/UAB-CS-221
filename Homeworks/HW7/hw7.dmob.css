@@ -1,0 +1,43 @@
+header{
+    color: aliceblue;
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 375px); /*Makes a 3x1 grid template*/
+    grid-template-columns: repeat(3, 375px); /*makes a 3x3 grid template*/
+    grid-gap:1em;
+}
+.grid-item{
+    display: flex;
+    justify-content: center; /*Align the flex items at the center of the container*/
+    align-items: center; /*Centers the items in the grid*/
+    background-position: center;
+    color: orange;
+    border: 1px solid salmon;
+}
+.grid-item:hover{
+    scale: 1.25;
+}
+.grid-item:nth-child(odd){
+    border: 3px dashed green;
+}
+.grid-item:nth-child(even){
+    border: 3px ridge purple;
+}
+.grid-item:hover::before{
+    display: flex;
+    content: "Overlay Caption";
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    background: linear-gradient(red, yellow);
+    color: black;
+}
+.grid-item:hover::after{
+    content: url(img/3872385.png);    
+}
