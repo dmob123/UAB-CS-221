@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+    dmob - HW8
+</title>
+<script>
+const prompt = require("prompt-sync")();
+var studentNumericValue = prompt("Enter the student's numeric value: ");
+let letterGrade = String(studentNumericValue);
+if(studentNumericValue >= 90 && studentNumericValue <=100){
+    letterGrade = "A";
+    console.log("Grade: " + studentNumericValue);
+    console.log("Letter Grade: " + letterGrade);
+    console.log("Reward: Mint");
+} else if(studentNumericValue >= 80 && studentNumericValue < 90){
+    letterGrade = "B";
+    console.log("Grade: " + studentNumericValue);
+    console.log("Letter Grade: " + letterGrade);
+    console.log("Reward: Mint");
+} else if(studentNumericValue >= 70 && studentNumericValue < 80){
+    letterGrade = "C";
+    console.log("Grade: " + studentNumericValue);
+    console.log("Letter Grade: " + letterGrade);
+    console.log("Reward: Mint");
+} else if(studentNumericValue >= 60 && studentNumericValue < 70){
+    letterGrade = "D";
+    console.log("Grade: " + studentNumericValue);
+    console.log("Letter Grade: " + letterGrade);
+    console.log("Reward: Mint");
+} else if(studentNumericValue < 60){
+    letterGrade = "F";
+    console.log("Grade: " + studentNumericValue);
+    console.log("Letter Grade: " + letterGrade);
+    console.log("Reward: Mint");
+} else{
+    console.log("The grade has to be between 0 and 100 and also a number. You will have to start over.")
+}
+</script>
+</head>
+<body>
+    <header>dfefsefs</header>
+</body>
+</html>
