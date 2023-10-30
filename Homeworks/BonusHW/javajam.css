@@ -1,0 +1,56 @@
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Arial, Helvetica, sans-serif;}
+header{
+    color: #8C3826;
+    background-color: #D2B48C;
+    text-align: center;
+}
+h1{
+    line-height: 200%;
+    text-align: center;
+    background-color: #D2B48C;
+    color: #8C3826;
+}
+h2{
+    color: #8C3826;
+}
+nav{
+    font-weight: 200;
+    background-color: #443022;
+    font-size: large;
+    text-align: center;
+}
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+#wrapper{
+        width:80%;
+        background-color: #FEFAEB;
+        margin-right: auto;
+        margin-left: auto;
+    }
+a{
+    color:rgb(184, 56, 56);
+}
+a:hover{
+    background-color: #d5a464;
+}
+.grid-container {
+    display: grid;
+    justify-content: center; /*Align the flex items at the center of the container*/
+    align-items: center; /*Centers the items in the grid*/
+    grid-template-rows: repeat(4, auto); /*Makes a 3x1 grid template*/
+    grid-template-columns: repeat(1, auto); /*makes a 3x3 grid template but changed it so the columns were wider*/
+    grid-gap:.5em; /*Spaced out grid squares per request*/
+}
+.grid-item:first{
+    position: sticky;
+}
+img{
+    width: 100%;
+}
