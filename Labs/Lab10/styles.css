@@ -1,0 +1,18 @@
+body{
+    background-color:black;
+}
+h1{
+    color: rgb(132, 131, 130);
+    text-align: center;
+}
+div{
+    align-items: center;
+}
+.rpsButton{
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    font-size:medium
+}
