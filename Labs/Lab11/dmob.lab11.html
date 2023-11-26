@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dmob.lab11.css">
+    <title>Book Finder</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Search for a book</h2>
+        <div class="search-container">
+            <input type="text" id="userSearch" placeholder="Type an Author or Title of a Book" style="width:75%">
+            <button id="searchButton" onclick="searchBooks()">Search</button></div>
+        <div id="bookList" class="book-list"></div>
+        <div id="bookDetailsModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="bookDetails"></div>
+            </div>
+        </div>
+    </div>
+    <script src="dmob.lab11.js"></script>
+</body>
+</html>
