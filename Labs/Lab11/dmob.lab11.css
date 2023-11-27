@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(123, 255, 75);
+    background-color: rgb(21, 78, 0)
 }
 .container{
     max-width: 800px;
@@ -9,12 +9,14 @@ body{
 }
 .container h2{
     text-align: center;
+    color:azure;
     font-size: 200%;
 }
 .search-container{
     text-align: center;
     margin-bottom: 20px;
 }
+
 #bookList{
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +29,7 @@ body{
     width: 200px;
     background-color: antiquewhite;
 }
+
 .modal{
     display: none;
     position: fixed;
@@ -38,6 +41,7 @@ body{
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }
+
 .modal-content{
     background-color: #fefefe;
     margin: 10% auto;
@@ -45,6 +49,7 @@ body{
     border: 1px solid #888;
     width: 80%;
 }
+
 .close{
     color: #aaa;
     float: right;
